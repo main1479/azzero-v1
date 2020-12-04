@@ -86,6 +86,11 @@
 	.main{
 		margin-top: 195px;
 	}
+
+	.servizi__textbox{
+		padding-left: 10rem;
+		padding-right: 10rem;
+	}
 }
 @media (min-width: 1200px) and (max-width: 1399px){
 	.header1 .logo img{
@@ -189,6 +194,24 @@
 	    font-size: 46px;
 	    line-height: 50px;
 	}
+
+	/* Servizi Section */
+
+	.servizi__textbox{
+		padding-left: 10rem;
+		padding-right: 10rem;
+	}
+
+	.servizi__imgbox{
+		min-height: 70rem;
+	}
+
+
+	/* Navbar Font */
+	.navbar-list > li > a{
+		font-size: 1.5rem;
+	}
+
 }
 
 @media (min-width: 1200px) { 
@@ -236,17 +259,42 @@
 	.news_area .news_content {
 	    padding: 25px 30px;
 	}
-
-	.society-main h2.heading{
-		font-size: 5rem;
+	.servizi__textbox{
+		padding-left: 5rem;
+		padding-right: 5rem;
 	}
 
-	section.the-numbers .numbers__text-box .top_title {
-		font-size: 3rem;
-		line-height: 40px;
+	.servizi__imgbox{
+		min-height: 60rem;
+	}
+
+	html{
+		font-size: 55%;
 	}
 
 
+	/* Top Homebar */
+
+	.xs__navbar-link{
+		display: none;
+	}
+
+	.navbar-list > li{
+		/* padding: 1rem 0; */
+	}
+
+	.navbar-logo{
+		margin-left: 2rem;
+
+	}
+
+	.navbar-list > li > a{
+		padding: 1.5rem 2rem 1.5rem 2rem;
+	}
+
+	.news__search{
+		padding: 3rem 3rem;
+	}
 }
 
 @media (max-width: 991px) {
@@ -311,6 +359,72 @@
 
 	.laboriano_area h4 br{
 		display: none;
+	}
+
+
+	/* Servizi Page*/
+
+
+	.servizi__textbox{
+		padding: 0 3rem 0 3rem;
+	}
+
+	.servizi__imgbox{
+		min-height: 55rem;
+	}
+
+	.servizi__textbox .sub_title{
+		margin: 3rem 0;
+	}
+
+	.servizi__heading{
+		font-size: 6rem;
+	}
+
+
+		/* Blog Page */
+
+		.news__post-text{
+			padding:5.5rem 2rem 5.5rem 4rem;
+		}
+
+		/* Searchbar */
+
+		.news__search{
+			padding: 2rem 2rem;
+		}
+
+	/* Header */
+
+	.header__2{
+		margin-top: 7rem;
+	}
+
+	/* Font Size */
+
+	html{
+		font-size: 50%;
+	}
+
+	/* Top Nav Home Button */
+
+	.xs__navbar-link,
+	.nav__contact,
+	.nav__search{
+		display: none;
+	}
+
+	.xs__navbar{
+		padding: 1rem 6rem;
+		border: none;
+	}
+
+	.navbar-coll{
+		padding-top: 2rem;
+	}
+
+	.navbar-logo{
+		margin-left: 0;
 	}
 
 }
@@ -429,6 +543,28 @@
 	.footer_top {
 	    padding: 45px 0 75px;
 	}
+
+	
+	/* Servizi Page*/
+
+
+	.servizi__textbox{
+		margin-top: 3rem;
+		margin-bottom: 3rem;
+	}
+
+	.servizi .container-fluid .row:nth-child(2) .col-sm-12:first-child{
+		order: 1;
+	}
+
+	.servizi .container-fluid .row:nth-child(4) .col-sm-12:first-child{
+		order: 1;
+	}
+	.servizi .container-fluid .row:last-child .col-sm-12:first-child{
+		order: 1;
+	}
+
+
 }
 
 /*Small devices (landscape phones, 575px and down)*/
@@ -460,18 +596,21 @@
 	    line-height: 22px;
 	}
 
-	.society-main h2.heading{
-		font-size: 4rem;
+	/* Font Size */
+
+	html{
+		font-size: 45%;
 	}
 
-	.society-main section{
-		padding: 8rem 0;
+	.servizi__imgbox{
+		min-height: 35rem;
 	}
 
+	/* Navbar Logo */
 
+	.navbar-logo{
+		max-width: 19rem;
+	}
 }
-
-
-
 
 
